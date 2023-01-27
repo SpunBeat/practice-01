@@ -30,3 +30,29 @@ body {
     height: 24px;
     object-fit: contain;
 }
+
+.para_animar {
+    color: #c4aec8;
+    font-size: 14px;
+    transition: all ease 0.3s;
+}
+
+.mi_boton {
+    padding: 10px;
+    background-color: #915c9b;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.mi_boton:hover {
+    background-color: #6e4576;
+}
+
+.mi_boton:active {
+    background-color: #a666b3;
+}
+
+.mi_boton:active .para_animar {
+    background-color: #a666b3;
+    font-size: 18px;
+}

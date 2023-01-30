@@ -54,5 +54,77 @@ body {
 
 .mi_boton:active .para_animar {
     background-color: #a666b3;
-    font-size: 18px;
+}
+
+.container_card {
+    width: 166px;
+    height: 180px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    box-shadow: #43597160 0 2px 6px 0;
+    margin: 100px;
+    padding: 20px;
+}
+
+.card_title {
+    color: #697A8D;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.card_number {
+    color: #697A8D;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.card_blue {
+    border-radius: 4px;
+    color: #03C3EC;
+    font-size: 13px;
+    background-color: #03c1ec2f;
+    width: 55px;
+    height: 22px;
+    /* Centrar el texto */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card_footer_title {
+    color: #A1ACB8;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.card_footer_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.progress_number {
+    font-size: 13px;
+    color: #697A8D;
+}
+
+.progress_bar {
+    width: 90px;
+    height: 8px;
+    background-color: #4359711e;
+    border-radius: 4px;
+}
+
+.progress_bar_color {
+    width: 20px;
+    height: 8px;
+    background-color: #696CFF;
+    border-radius: 4px;
+    transition: all ease 0.3s;
+}
+
+.progress_bar:hover .progress_bar_color {
+    width: 70px;
 }
